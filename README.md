@@ -7,17 +7,17 @@ Memcached is a free & open source, high-performance, distributed memory object c
 
 Memcached support major operations as below:  
 | Operation |    Description                      |   
-| --------- |:-----------------------------------:|
+| --- | --- |
 | get       |        Reads a value. |
 | set       |         Set a key unconditionally. |
 | add       |        Add a new key. |
-| replace   |      Overwrite existing key.|
+| replace   |      Overwrite existing key. |
 | append    |     Append data to existing key.|
-| prepend   |    Prepend data to the existing key.|
+| prepend   |    Prepend data to the existing key. |
 | delete    |   Delete existing key.|
 | flush all |   Invalidte spcific items immediately.|
-| version   |   Print server version.|
-| quit        | Quit the session.|  
+| version   |   Print server version. |
+| quit        | Quit the session. |  
 
 ## Overview of Memcached clients for Java  
 
