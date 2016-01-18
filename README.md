@@ -2,23 +2,24 @@
 
 It is a Demo of using Memcached.
 
-# Memcached
+## Memcached
 Memcached is a free & open source, high-performance, distributed memory object caching system. It is an in-memory key-value store for arbitrary data (strings, objects) from results of database calls, API calls, or page rendering. It focuses on solving the problem of keep the cache consistent across all servers, make maximum usage of the caching space across all servers. The total usable cache size will increase when the server increases.
 
 Memcached support major operations as below:
+| Operation |    Description                      |   
+| --------- |:-----------------------------------:|
+| get       |        Reads a value. |
+| set       |         Set a key unconditionally. |
+| add       |        Add a new key. |
+| replace   |      Overwrite existing key.|
+| append    |     Append data to existing key.|
+| prepend   |    Prepend data to the existing key.|
+| delete    |   Delete existing key.|
+| flush all |   Invalidte spcific items immediately.|
+| version   |   Print server version.|
+| quit        | Quit the session.|
 
-get: Reads a value. \n
-set: Set a key unconditionally. \n
-add: Add a new key. \n
-replace: Overwrite existing key \n
-append: Append data to existing key \n
-prepend: Prepend data to the existing key. \n
-delete: Delete existing key. \n
-flush all: Invalidte spcific items immediately. \n
-version: Print server version.\n
-quit: Quit the session.
-
-# Overview of Memcached clients for Java 
+## Overview of Memcached clients for Java 
 
 There are three main implementation of Memcached clients for Java
 1)java-memcached, 2) spymemcached 3) xmemcached.
@@ -31,7 +32,8 @@ There are three main implementation of Memcached clients for Java
 
 Based on the benchmark testing sepcified in this link, http://xmemcached.googlecode.com/svn/trunk/benchmark/benchmark.html, I decided to adopt XMemcached.
 
-# XMemcached 
+## XMemcached Application
+
 Setup of Setup Memcached and work with Memcached Client via XMemcached. 
 
 1) Download and install the memcached server and start the server. Detail could be found in  http://memcached.org/downloads
