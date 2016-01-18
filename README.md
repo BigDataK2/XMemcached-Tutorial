@@ -5,6 +5,19 @@ It is a Demo of using Memcached.
 # Memcached
 Memcached is a free & open source, high-performance, distributed memory object caching system. It is an in-memory key-value store for arbitrary data (strings, objects) from results of database calls, API calls, or page rendering. It focuses on solving the problem of keep the cache consistent across all servers, make maximum usage of the caching space across all servers. The total usable cache size will increase when the server increases.
 
+Memcached support major operations as below:
+
+get: Reads a value
+set: set a key unconditionally
+add: add a new key
+replace: overwrite existing key
+append: append data to existing key
+prepend: prepend data to the existing key
+delete: delete existing key
+flush all: invalidte spcific items immediately.
+version: print server version
+quit: quit the session
+
 # Overview of Memcached clients for Java 
 
 There are three main implementation of Memcached clients for Java
