@@ -7,9 +7,6 @@ Memcached is a free & open source, high-performance, distributed memory object c
 
 Memcached support major operations as below:
 
-Markdown | Less | Pretty
---- | --- | ---
-1 | 2 | 3
   
 Operation | Description
 --- | ---
