@@ -11,13 +11,13 @@ Markdown | Less | Pretty
 --- | --- | ---
 1 | 2 | 3
   
-Operation | Description | test    
+Operation | Description | test
 --- | ---
 get | Reads a value. | 1
-set | Set a key unconditionally.| 1
+set | Set a key unconditionally. | 1
 add | Add a new key.| 1
-replace   | Overwrite existing key.| 1
-append    | Append data to existing key.| 1
+replace   | Overwrite existing key. | 1
+append    | Append data to existing key. | 1
 prepend | Prepend data to the existing key. | 1
 delete | Delete existing key. | 1
 flush all | Invalidte spcific items immediately. | 1
